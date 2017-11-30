@@ -46163,8 +46163,8 @@ Concept Index
 * C and C++ constants:                   C Constants.        (line    6)
 * C and C++ defaults:                    C Defaults.         (line    6)
 * C and C++ operators:                   C Operators.        (line    6)
-* c packet:                              Packets.            (line  110)
 * C packet:                              Packets.            (line  119)
+* c packet:                              Packets.            (line  110)
 * C++:                                   C.                  (line   10)
 * C++ compilers:                         C Plus Plus Expressions.
                                                              (line    8)
@@ -47666,8 +47666,8 @@ Concept Index
                                                              (line    6)
 * z packet:                              Packets.            (line  553)
 * Z packets:                             Packets.            (line  553)
-* z0 packet:                             Packets.            (line  568)
 * Z0 packet:                             Packets.            (line  568)
+* z0 packet:                             Packets.            (line  568)
 * z1 packet:                             Packets.            (line  623)
 * Z1 packet:                             Packets.            (line  623)
 * z2 packet:                             Packets.            (line  645)
@@ -48099,14 +48099,14 @@ Command, Variable, and Function Index
                                                               (line 153)
 * BP_ACCESS_WATCHPOINT:                  Breakpoints In Guile.
                                                               (line  71)
-* BP_BREAKPOINT <1>:                     Breakpoints In Python.
-                                                              (line 141)
-* BP_BREAKPOINT:                         Breakpoints In Guile.
+* BP_BREAKPOINT <1>:                     Breakpoints In Guile.
                                                               (line  57)
-* BP_HARDWARE_WATCHPOINT <1>:            Breakpoints In Guile.
-                                                              (line  63)
-* BP_HARDWARE_WATCHPOINT:                Breakpoints In Python.
+* BP_BREAKPOINT:                         Breakpoints In Python.
+                                                              (line 141)
+* BP_HARDWARE_WATCHPOINT <1>:            Breakpoints In Python.
                                                               (line 147)
+* BP_HARDWARE_WATCHPOINT:                Breakpoints In Guile.
+                                                              (line  63)
 * BP_READ_WATCHPOINT <1>:                Breakpoints In Python.
                                                               (line 150)
 * BP_READ_WATCHPOINT:                    Breakpoints In Guile.
@@ -48587,7 +48587,7 @@ Command, Variable, and Function Index
 * gdb.find_pc_line:                      Basic Python.        (line  95)
 * gdb.FinishBreakpoint:                  Finish Breakpoints in Python.
                                                               (line   6)
-* gdb.flush:                             Basic Python.        (line 153)
+* gdb.flush:                             Basic Python.        (line 154)
 * gdb.frame_stop_reason_string:          Frames In Python.    (line  30)
 * gdb.Function:                          Functions In Python. (line   6)
 * gdb.GdbError:                          Exception Handling.  (line  42)

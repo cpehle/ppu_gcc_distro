@@ -53166,8 +53166,8 @@ look up both forms.
 * iwithprefixbefore:                     Preprocessor Options.
                                                              (line  442)
 * keep_private_externs:                  Darwin Options.     (line  196)
-* l:                                     Link Options.       (line   26)
 * L:                                     Directory Options.  (line   42)
+* l:                                     Link Options.       (line   26)
 * lobjc:                                 Link Options.       (line   53)
 * M:                                     Preprocessor Options.
                                                              (line  185)
@@ -53346,8 +53346,8 @@ look up both forms.
 * mannotate-align:                       ARC Options.        (line  135)
 * mapcs:                                 ARM Options.        (line   22)
 * mapcs-frame:                           ARM Options.        (line   14)
-* mapp-regs <1>:                         V850 Options.       (line  181)
-* mapp-regs:                             SPARC Options.      (line   10)
+* mapp-regs <1>:                         SPARC Options.      (line   10)
+* mapp-regs:                             V850 Options.       (line  181)
 * mARC600:                               ARC Options.        (line   19)
 * mARC601:                               ARC Options.        (line   23)
 * mARC700:                               ARC Options.        (line   26)
@@ -53413,8 +53413,8 @@ look up both forms.
                                                              (line  455)
 * mbit-ops:                              CR16 Options.       (line   25)
 * mbitfield:                             M680x0 Options.     (line  235)
-* mbitops <1>:                           SH Options.         (line  166)
-* mbitops:                               MeP Options.        (line   26)
+* mbitops <1>:                           MeP Options.        (line   26)
+* mbitops:                               SH Options.         (line  166)
 * mblock-move-inline-limit:              RS/6000 and PowerPC Options.
                                                              (line  737)
 * mbranch-cheap:                         PDP-11 Options.     (line   65)
@@ -53546,9 +53546,9 @@ look up both forms.
 * mdata-align:                           CRIS Options.       (line   55)
 * mdata-model:                           CR16 Options.       (line   28)
 * mdc:                                   MeP Options.        (line   62)
-* mdebug <1>:                            S/390 and zSeries Options.
+* mdebug <1>:                            M32R/D Options.     (line   69)
+* mdebug:                                S/390 and zSeries Options.
                                                              (line  112)
-* mdebug:                                M32R/D Options.     (line   69)
 * mdebug-main=PREFIX:                    VMS Options.        (line   13)
 * mdec-asm:                              PDP-11 Options.     (line   72)
 * mdirect-move:                          RS/6000 and PowerPC Options.
@@ -54221,10 +54221,10 @@ look up both forms.
 * mno-sched-prefer-non-control-spec-insns: IA-64 Options.    (line  175)
 * mno-sched-prefer-non-data-spec-insns:  IA-64 Options.      (line  168)
 * mno-sched-prolog:                      ARM Options.        (line   33)
-* mno-sdata <1>:                         ARC Options.        (line  175)
+* mno-sdata <1>:                         IA-64 Options.      (line   42)
 * mno-sdata <2>:                         RS/6000 and PowerPC Options.
                                                              (line  732)
-* mno-sdata:                             IA-64 Options.      (line   42)
+* mno-sdata:                             ARC Options.        (line  175)
 * mno-sep-data:                          Blackfin Options.   (line  116)
 * mno-serialize-volatile:                Xtensa Options.     (line   35)
 * mno-short:                             M680x0 Options.     (line  226)
@@ -54386,10 +54386,10 @@ look up both forms.
 * mr10k-cache-barrier:                   MIPS Options.       (line  641)
 * mRcq:                                  ARC Options.        (line  275)
 * mRcw:                                  ARC Options.        (line  279)
-* mrecip <1>:                            i386 and x86-64 Options.
-                                                             (line  732)
-* mrecip:                                RS/6000 and PowerPC Options.
+* mrecip <1>:                            RS/6000 and PowerPC Options.
                                                              (line  802)
+* mrecip:                                i386 and x86-64 Options.
+                                                             (line  732)
 * mrecip-precision:                      RS/6000 and PowerPC Options.
                                                              (line  838)
 * mrecip=opt <1>:                        i386 and x86-64 Options.
@@ -54896,9 +54896,9 @@ look up both forms.
 * traditional-cpp <1>:                   C Dialect Options.  (line  333)
 * traditional-cpp:                       Preprocessor Options.
                                                              (line  680)
-* trigraphs <1>:                         Preprocessor Options.
+* trigraphs <1>:                         C Dialect Options.  (line  328)
+* trigraphs:                             Preprocessor Options.
                                                              (line  684)
-* trigraphs:                             C Dialect Options.  (line  328)
 * twolevel_namespace:                    Darwin Options.     (line  196)
 * u:                                     Link Options.       (line  249)
 * U:                                     Preprocessor Options.
@@ -54927,9 +54927,9 @@ look up both forms.
 * Waddress:                              Warning Options.    (line 1196)
 * Waggregate-return:                     Warning Options.    (line 1214)
 * Waggressive-loop-optimizations:        Warning Options.    (line 1219)
-* Wall <1>:                              Preprocessor Options.
+* Wall <1>:                              Warning Options.    (line  119)
+* Wall <2>:                              Preprocessor Options.
                                                              (line   93)
-* Wall <2>:                              Warning Options.    (line  119)
 * Wall:                                  Standard Libraries. (line    6)
 * Warray-bounds:                         Warning Options.    (line  834)
 * Wassign-intercept:                     Objective-C and Objective-C++ Dialect Options.
@@ -54977,15 +54977,14 @@ look up both forms.
 * Wfatal-errors:                         Warning Options.    (line   48)
 * Wfloat-conversion:                     Warning Options.    (line 1182)
 * Wfloat-equal:                          Warning Options.    (line  866)
-* Wformat <1>:                           Warning Options.    (line  256)
-* Wformat <2>:                           Function Attributes.
+* Wformat <1>:                           Function Attributes.
                                                              (line  459)
 * Wformat:                               Warning Options.    (line  813)
 * Wformat-contains-nul:                  Warning Options.    (line  293)
 * Wformat-extra-args:                    Warning Options.    (line  297)
-* Wformat-nonliteral <1>:                Warning Options.    (line  321)
-* Wformat-nonliteral:                    Function Attributes.
+* Wformat-nonliteral <1>:                Function Attributes.
                                                              (line  525)
+* Wformat-nonliteral:                    Warning Options.    (line  321)
 * Wformat-security:                      Warning Options.    (line  326)
 * Wformat-y2k:                           Warning Options.    (line  338)
 * Wformat-zero-length:                   Warning Options.    (line  311)
@@ -55228,8 +55227,8 @@ look up both forms.
 * Wpedantic-ms-format:                   Warning Options.    (line 1032)
 * Wpmf-conversions:                      C++ Dialect Options.
                                                              (line  681)
-* Wpointer-arith <1>:                    Pointer Arith.      (line   13)
-* Wpointer-arith:                        Warning Options.    (line 1038)
+* Wpointer-arith <1>:                    Warning Options.    (line 1038)
+* Wpointer-arith:                        Pointer Arith.      (line   13)
 * Wpointer-sign:                         Warning Options.    (line 1519)
 * Wpointer-to-int-cast:                  Warning Options.    (line 1457)
 * Wpragmas:                              Warning Options.    (line  699)
@@ -57538,6 +57537,6 @@ Node: Copying2050721
 Node: GNU Free Documentation License2088249
 Node: Contributors2113386
 Node: Option Index2151258
-Node: Keyword Index2362058
+Node: Keyword Index2361985
 
 End Tag Table

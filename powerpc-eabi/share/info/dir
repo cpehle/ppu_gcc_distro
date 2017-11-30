@@ -51,3 +51,12 @@ Individual utilities
 * strip: (binutils)strip.         Discard symbols.
 * windmc: (binutils)windmc.	  Generator for Windows message resources.
 * windres: (binutils)windres.	  Manipulate Windows resources.
+
+GNU libraries
+* gmp: (gmp).                   GNU Multiple Precision Arithmetic Library.
+
+Software libraries
+* mpfr: (mpfr).                 Multiple Precision Floating-Point Reliable Library.
+
+Miscellaneous
+* mpc: (mpc.info).               Multiple Precision Complex Library.

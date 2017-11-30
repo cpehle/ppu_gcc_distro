@@ -47188,14 +47188,15 @@ Concept Index
 * define_special_predicate:              Defining Predicates.
                                                              (line    6)
 * define_split:                          Insn Splitting.     (line   32)
-* define_subst <1>:                      Subst Iterators.    (line    6)
-* define_subst <2>:                      Define Subst Pattern Matching.
+* define_subst <1>:                      Define Subst Pattern Matching.
                                                              (line    6)
-* define_subst <3>:                      Define Subst Example.
+* define_subst <2>:                      Subst Iterators.    (line    6)
+* define_subst <3>:                      Define Subst.       (line   14)
+* define_subst <4>:                      Define Subst Example.
                                                              (line    6)
-* define_subst <4>:                      Define Subst Output Template.
+* define_subst <5>:                      Define Subst Output Template.
                                                              (line    6)
-* define_subst:                          Define Subst.       (line   14)
+* define_subst:                          Define Subst.       (line    6)
 * define_subst_attr:                     Subst Iterators.    (line   26)
 * defining attributes and their values:  Defining Attributes.
                                                              (line    6)
@@ -47228,7 +47229,7 @@ Concept Index
 * dispatch table:                        Dispatch Tables.    (line    8)
 * div:                                   Arithmetic.         (line  116)
 * div and attributes:                    Expressions.        (line   85)
-* division:                              Arithmetic.         (line  116)
+* division:                              Arithmetic.         (line  130)
 * divM3 instruction pattern:             Standard Names.     (line  279)
 * divmodM4 instruction pattern:          Standard Names.     (line  502)
 * DO_BODY:                               Statements for C++. (line    6)
@@ -47582,8 +47583,8 @@ Concept Index
 * gimple_asm_string:                     GIMPLE_ASM.         (line   53)
 * gimple_asm_volatile_p:                 GIMPLE_ASM.         (line   57)
 * GIMPLE_ASSIGN:                         GIMPLE_ASSIGN.      (line    6)
-* gimple_assign_cast_p <1>:              GIMPLE_ASSIGN.      (line   93)
-* gimple_assign_cast_p:                  Logical Operators.  (line  160)
+* gimple_assign_cast_p <1>:              Logical Operators.  (line  160)
+* gimple_assign_cast_p:                  GIMPLE_ASSIGN.      (line   93)
 * gimple_assign_lhs:                     GIMPLE_ASSIGN.      (line   51)
 * gimple_assign_lhs_ptr:                 GIMPLE_ASSIGN.      (line   54)
 * gimple_assign_rhs1:                    GIMPLE_ASSIGN.      (line   57)
@@ -50029,13 +50030,12 @@ Concept Index
 * TYPE_QUAL_CONST:                       Types.              (line    6)
 * TYPE_QUAL_RESTRICT <1>:                Types for C++.      (line    6)
 * TYPE_QUAL_RESTRICT:                    Types.              (line    6)
-* TYPE_QUAL_VOLATILE <1>:                Types for C++.      (line    6)
-* TYPE_QUAL_VOLATILE:                    Types.              (line    6)
+* TYPE_QUAL_VOLATILE <1>:                Types.              (line    6)
+* TYPE_QUAL_VOLATILE:                    Types for C++.      (line    6)
 * TYPE_RAISES_EXCEPTIONS:                Functions for C++.  (line  149)
-* TYPE_SIZE <1>:                         Types for C++.      (line    6)
-* TYPE_SIZE <2>:                         Types.              (line   25)
-* TYPE_SIZE <3>:                         Types for C++.      (line   40)
-* TYPE_SIZE:                             Types.              (line    6)
+* TYPE_SIZE <1>:                         Types for C++.      (line   40)
+* TYPE_SIZE <2>:                         Types.              (line    6)
+* TYPE_SIZE:                             Types for C++.      (line    6)
 * TYPE_STRUCTURAL_EQUALITY_P:            Types.              (line    6)
 * TYPE_UNQUALIFIED <1>:                  Types for C++.      (line    6)
 * TYPE_UNQUALIFIED:                      Types.              (line    6)
@@ -50113,9 +50113,9 @@ Concept Index
 * unsigned_float:                        Conversions.        (line   62)
 * unsigned_fract_convert:                Conversions.        (line   97)
 * unsigned_sat_fract:                    Conversions.        (line  103)
-* unspec <1>:                            Side Effects.       (line  300)
-* unspec:                                Constant Definitions.
+* unspec <1>:                            Constant Definitions.
                                                              (line  111)
+* unspec:                                Side Effects.       (line  300)
 * unspec_volatile <1>:                   Side Effects.       (line  300)
 * unspec_volatile:                       Constant Definitions.
                                                              (line   99)
