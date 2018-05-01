@@ -14,10 +14,6 @@
 #error Use the "-mstrict-align" flag to enable s2pp support
 #endif
 
-#if defined(_RELOCATABLE)
-#error Use the "-mno-relocatable" flag to enable s2pp support
-#endif
-
 #if defined(_SDATA)
 #error Use the "-msdata=none" flag to enable s2pp support
 #endif
