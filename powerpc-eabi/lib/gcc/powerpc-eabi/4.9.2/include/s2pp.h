@@ -241,24 +241,24 @@ static uint32_t const __FXVIO_BUFFER_ENABLE_MASK = 0x200000;
 static uint32_t const __SPIKE_BASE_ADDR = (0x3c000040 << 2);
 static uint32_t const __DECODER_BASE_ADDR = (0x20014000 << 2);
 
-#define cadc_load_causal(vec, addr) vec = fxv_inx(__FXVIO_CAUSAL_BASE, addr)
-#define cadc_load_acausal(vec, addr) vec = fxv_inx(__FXVIO_ACAUSAL_BASE, addr)
-#define cadc_load_causal_buffered(vec, addr) vec = fxv_inx(__FXVIO_CAUSAL_BASE || __FXVIO_BUFFER_ENABLE_MASK, addr)
-#define cadc_load_acausal_buffered(vec, addr) vec = fxv_inx(__FXVIO_ACAUSAL_BASE || __FXVIO_BUFFER_ENABLE_MASK, addr)
-#define cadc_test_load_causal(vec, addr) vec = fxv_inx(__FXVIO_CAUSAL_BASE | __FXVIO_TEST_MASK, addr)
-#define cadc_test_load_acausal(vec, addr) vec = fxv_inx(__FXVIO_ACAUSAL_BASE | __FXVIO_TEST_MASK, addr)
-#define cadc_load_vreset_c(vec, addr) vec = fxv_inx(__FXVIO_VRESET_C_BASE, addr)
-#define cadc_load_vreset_a(vec, addr) vec = fxv_inx(__FXVIO_VRESET_A_BASE, addr)
-#define cadc_load_vreset_c_buffered(vec, addr) vec = fxv_inx(__FXVIO_VRESET_C_BASE || __FXVIO_BUFFER_ENABLE_MASK, addr)
-#define cadc_load_vreset_a_buffered(vec, addr) vec = fxv_inx(__FXVIO_VRESET_A_BASE || __FXVIO_BUFFER_ENABLE_MASK, addr)
+#define cadc_load_causal(vec, addr) vec = fxv_in(__FXVIO_CAUSAL_BASE, addr)
+#define cadc_load_acausal(vec, addr) vec = fxv_in(__FXVIO_ACAUSAL_BASE, addr)
+#define cadc_load_causal_buffered(vec, addr) vec = fxv_in(__FXVIO_CAUSAL_BASE || __FXVIO_BUFFER_ENABLE_MASK, addr)
+#define cadc_load_acausal_buffered(vec, addr) vec = fxv_in(__FXVIO_ACAUSAL_BASE || __FXVIO_BUFFER_ENABLE_MASK, addr)
+#define cadc_test_load_causal(vec, addr) vec = fxv_in(__FXVIO_CAUSAL_BASE | __FXVIO_TEST_MASK, addr)
+#define cadc_test_load_acausal(vec, addr) vec = fxv_in(__FXVIO_ACAUSAL_BASE | __FXVIO_TEST_MASK, addr)
+#define cadc_load_vreset_c(vec, addr) vec = fxv_in(__FXVIO_VRESET_C_BASE, addr)
+#define cadc_load_vreset_a(vec, addr) vec = fxv_in(__FXVIO_VRESET_A_BASE, addr)
+#define cadc_load_vreset_c_buffered(vec, addr) vec = fxv_in(__FXVIO_VRESET_C_BASE || __FXVIO_BUFFER_ENABLE_MASK, addr)
+#define cadc_load_vreset_a_buffered(vec, addr) vec = fxv_in(__FXVIO_VRESET_A_BASE || __FXVIO_BUFFER_ENABLE_MASK, addr)
 
 #define _cadc_load_row(ap0, am0, ap1, am1, addr, buffer_enable) do {\
 	\
-	ap0 = fxv_inx(__FXVIO_CAUSAL_BASE | (buffer_enable), addr)\
-	am0 = fxv_inx(__FXVIO_ACAUSAL_BASE | __FXVIO_BUFFER_ENABLE_MASK), addr)\
+	ap0 = fxv_in(__FXVIO_CAUSAL_BASE | (buffer_enable), addr)\
+	am0 = fxv_in(__FXVIO_ACAUSAL_BASE | __FXVIO_BUFFER_ENABLE_MASK), addr)\
 	++addr;\
-	ap1 = fxv_inx(__FXVIO_CAUSAL_BASE | __FXVIO_BUFFER_ENABLE_MASK), addr)\
-	am1 = fxv_inx(__FXVIO_ACAUSAL_BASE | __FXVIO_BUFFER_ENABLE_MASK), addr)\
+	ap1 = fxv_in(__FXVIO_CAUSAL_BASE | __FXVIO_BUFFER_ENABLE_MASK), addr)\
+	am1 = fxv_in(__FXVIO_ACAUSAL_BASE | __FXVIO_BUFFER_ENABLE_MASK), addr)\
 	--addr;\
 } while(0)
 
